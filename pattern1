@@ -1,9 +1,8 @@
-#pattern 1
-n=int(input())
-for i in range(1,n+1):
-    for j in range(i):
-        if i%2==0:
-            print("@",end="")
-        else:
-            print(i,end="")
-    print()            
+
+#pattern program 1
+
+n = int(input())
+for row in range(1, n + 1):
+   for star in range(row):
+       print("*", end = "")
+   print()
